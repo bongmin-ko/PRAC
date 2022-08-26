@@ -13,8 +13,9 @@ int main(void)
 	for(count = 1; count < 11; count ++)
 		sum = sum + count;
 	
-	printf("answer is %d", sum);
-
+	//printf("answer is %d", sum);
+	printf("i don't know");
 	return 0;
 
 }
+
