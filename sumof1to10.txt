@@ -1,0 +1,20 @@
+#include<stdio.h>
+
+int main(void)
+{
+	int sum = 0; 
+	int count;
+
+	printf("HI, I'M BONG\n");
+	printf("nice to meet you\n");	
+	
+	pirntf("do you know sum of 1~10 ? \n");
+	
+	for(count = 1; count < 11; count ++)
+		sum = sum + count;
+	
+	printf("answer is %d", sum);
+
+	return 0;
+
+}
